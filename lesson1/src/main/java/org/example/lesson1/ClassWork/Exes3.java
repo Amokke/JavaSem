@@ -7,7 +7,7 @@ public class Exes3 {
         System.out.println("Введите строку: ");
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
-        System.out.println("zadanie3(str) = " + zadanie3(str);
+        System.out.println("zadanie3(str) = " + zadanie3(str));
         scanner.close();
     }
     private static String zadanie3(String str) {
