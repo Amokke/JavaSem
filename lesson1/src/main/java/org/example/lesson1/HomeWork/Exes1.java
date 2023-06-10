@@ -15,7 +15,7 @@ public class Exes1 {
         String res= "";
         for(int i=data.length-1;i>=0;--i){
             if(data[i].length()!=0){
-                res += data[i]+ " ";
+                res += data[i] + " ";
             }
         }
         return res.substring(0,res.length()-1);
