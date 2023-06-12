@@ -44,4 +44,12 @@ public class Vector {
     public double vectorCos(Vector vector2) {
         return (this.scalarMulti(vector2)/(this.vectorLength()*vector2.vectorLength()));
     }
+
+    public Vector vectorSum(Vector vector2) {
+        return new Vector(x + vector2.x, y + vector2.y, z + vector2.z);
+    }
+
+    public Vector vectorRaz(Vector vector2) {
+        return new Vector(x - vector2.x, y - vector2.y, z - vector2.z);
+    }
 }

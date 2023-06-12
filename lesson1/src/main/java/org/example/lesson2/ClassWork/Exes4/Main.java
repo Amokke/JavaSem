@@ -8,6 +8,8 @@ public class Main {
         System.out.println("vector1.scalarMulti(vector2) = " + vector1.scalarMulti(vector2));
         System.out.println("vector1.vectorMulti(vector2) = " + vector1.vectorMulti(vector2));
         System.out.println("vector1.vectorCos(vector2) = " + vector1.vectorCos(vector2));
+        System.out.println("vector1.vectorSum(vector2) = " + vector1.vectorSum(vector2));
+        System.out.println("vector1.vectorRaz(vector2) = " + vector1.vectorRaz(vector2));
         System.out.println("vector1 = " + vector1);
     }
 }
